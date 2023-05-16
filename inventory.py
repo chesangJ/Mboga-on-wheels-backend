@@ -11,5 +11,6 @@ class Inventory:
             self.items[name].remove_stock(quantity)
             print(f"{quantity} {name} added to cart")
             print(f"Remaining stock for {name}: {self.items[name].quantity}")
+            
         else:
             print(f"{name} not found in inventory")
