@@ -55,6 +55,7 @@ class Stock:
 
 
 
+
 class Inventory:
     def __init__(self):
         self.items = {}
@@ -80,4 +81,15 @@ inventory.add_to_inventory("onions", 70)
 inventory.add_to_inventory("lemons", 90)
 inventory.add_to_inventory("watermelon", 15)
 inventory.add_to_inventory("oranges", 50)
+
+# adding items to the cart
+inventory.add_to_cart("banana", 2)
+inventory.add_to_cart("apples", 4)
+inventory.add_to_cart("carrots", 10)
+inventory.add_to_cart("cabbages", 5)
+inventory.add_to_cart("spinach", 2)
+inventory.add_to_cart("lemons", 4)
+inventory.add_to_cart("garlic", 10)
+inventory.add_to_cart("mangoes", 5)
+
 
